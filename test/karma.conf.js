@@ -25,7 +25,7 @@ exclude = [
 
 // test results reporter to use
 // possible values: 'dots', 'progress', 'junit'
-reporters = ['progress'];
+reporters = ['dots', 'junit'];
 
 
 // web server port
@@ -68,9 +68,6 @@ captureTimeout = 60000;
 // if true, it capture browsers, run tests and exit
 singleRun = true;
 
-// Continuous Integration 
-// Reporters used 
-reporters = ['dots', 'junit'];
 
 junitReporter = {
 	outputFile: 'test-results.xml'
